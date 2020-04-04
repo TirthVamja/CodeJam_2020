@@ -1,4 +1,23 @@
 #include<bits/stdc++.h>
+#define int   long long
+#define vi   vector<int>
+#define pii  pair<int,int>
+#define pss  pair<string,string>
+#define psi  pair<string,int>
+#define vpii  vector<pair<int,int> >
+#define vpss  vector<pair<string,string> >
+#define vpsi  vector<pair<string,int> >
+#define pb   push_back
+#define mp   make_pair
+#define ff   first
+#define ss   second
+#define fast  ios::sync_with_stdio(false); cin.tie(NULL);
+#define f(i,a,b)  for(int i=a;i<=b;i++)
+#define rf(i,a,b)  for(int i=a;i>=b;i--)
+#define out(v,n)   f(i,0,n-1)cout<<v[i]<<" ";cout<<endl;
+#define in(v,n)   f(i,0,n-1)cin>>v[i];
+#define endl  "\n"
+//#define cin  ci
 using namespace std;
 void bomb(string& s){
     for(char& x:s){
